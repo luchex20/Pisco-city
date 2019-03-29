@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:whitesmoke;
+}
+
+h1{
+	text-align:center;
+	color:royalblue;
+}
+
+header,nav,footer{
+	background-color:steelblue;
+	width:960px;
+	margin:5px auto;
+	border-radius:10px;
+	padding:20px;
+	color:white;
+	text-align:center;
+}
+
+main{
+	width:1000px;
+	background-color:blue;
+	margin:5px auto;
+	color:white;
+	text-align:center;
+	height:270px;
+	padding:10px;
+}
+
+#SecciónArticulos{width:600px;}
+
+#SecciónInfoRel{
+	width:380px;
+	margin-left:10px;
+	}
+
+section{
+	float:left;
+	background-color:royalblue;
+	/*width:960px;
+	margin:0px auto; */
+	height:230px;
+	margin-top:10px;
+	padding-top:5px;
+}
+
+article, aside{
+	/*float:left; */
+	background-color:mediumblue;
+	margin:5px;
+	border-radius:10px;
+	/*height:190px; */
+	width:97%;
+}
+
+article{height:85px;}
+
+aside{height:190px;}
+
